@@ -26,6 +26,7 @@ public class Categoria {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@EqualsAndHashCode.Include
 	private Long id;
+	
 
 	// sera o nome da categoria de noticia p/ filtro ou algo do tipo
 	@Column(name = "nm_cat_noticia")
